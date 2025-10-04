@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
 	import type { CalendarEventExternal } from '@schedule-x/calendar';
 
 	let { calendarEvent }: { calendarEvent: CalendarEventExternal } = $props();
